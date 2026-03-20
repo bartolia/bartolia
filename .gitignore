@@ -28,3 +28,17 @@ __pycache__/
 ## from unauthorized access.
 .env
 .env.*
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# R
+.Rhistory
+
+# Build output
+dist/
+build/

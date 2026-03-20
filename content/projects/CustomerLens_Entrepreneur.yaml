@@ -1,0 +1,42 @@
+# ============================================================
+# content/projects/CustomerLens_Entreprenuer_Profile_Project.yaml
+# ============================================================
+# Example project: Crowd Cheer Analysis at Spartan Football Games
+# Copy this file to create your own project entries.
+# ============================================================
+
+title: "CustomerLens: Entrepreneur Insights Pipeline"
+
+short_summary: >
+  Built a natural language processing pipeline to analyze large volumes of
+  online entrepreneurial discussions and extract recurring themes, challenges,
+  and insights for early-stage founders.
+
+tech_stack:
+  - Python
+  - NLP
+  - pandas
+  - scikit-learn
+  - Topic Modeling
+  - Data Visualization
+
+problem_statement: >
+  Entrepreneurs frequently share valuable insights and challenges across
+  platforms like Reddit, but this information is unstructured and difficult
+  to analyze at scale. The goal was to identify recurring patterns across
+  thousands of discussions.
+
+approach: >
+  Developed a pipeline to collect public forum data, preprocess text, and apply
+  NLP techniques such as topic modeling and clustering. The system transforms
+  unstructured conversations into structured insights for analysis.
+
+results_impact: >
+  Produced interpretable themes and structured insights that help identify
+  common entrepreneurial pain points. This work supports CustomerLens AI in
+  building data-driven tools for founders while maintaining interpretability
+  for non-technical stakeholders.
+
+repo_url: "Private (NDA Protected)"
+notebook_url: "Private (NDA Protected)"
+image_path: "img/placeholder_project_2.png"

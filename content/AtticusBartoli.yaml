@@ -1,0 +1,29 @@
+# ============================================================
+# content/AtticusBartoli.yaml
+# ============================================================
+# This is an example student profile. Copy this file to
+# something like content/my_profile.yaml, fill in your own
+# information, and update portfolio_config.yaml to point to it.
+# ============================================================
+
+name: "Atticus Bartoli"
+tagline: "Aspiring Data Scientist | Entrepreneur | Poker Player"
+
+about: |
+ My name is Atticus Bartoli, and I am graduating from Michigan State University in 
+ Spring/Summer 2026 with a Bachelor’s degree in Data Science from the College of Natural Science.
+ I am particularly interested in statistics, variance, and risk analysis, and I enjoy applying these concepts to solve real-world problems.
+
+ My work focuses on transforming complex data into clear, actionable insights using tools such as 
+ Python, SQL, and data visualization. I am passionate about helping individuals and organizations 
+ make more informed, data-driven decisions—whether that means improving understanding of a problem 
+ or supporting strategic business improvements.
+
+ In addition to my academic work, I am involved in entrepreneurial ventures, including car rentals, 
+ and have experience in analytical, strategy-driven environments such as competitive poker. I also have
+ a strong interest in fashion and apparel, reflecting my appreciation for both creativity and attention to detail.
+
+# Contact information — remove any fields you prefer not to share
+email: "bartolia@msu.edu"
+linkedin: "https://www.linkedin.com/in/atticus-bartoli-9879a8240"
+github: "https://github.com/bartolia"
