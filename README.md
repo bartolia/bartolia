@@ -21,7 +21,7 @@ Python · SQL · AWS S3 · Athena · SageMaker · pandas · scikit-learn · Post
 
 ## Links
 
-- Portfolio: YOUR LIVE GITHUB PAGES LINK
+- Portfolio: https://bartolia.github.io/bartolia/
 - LinkedIn: https://www.linkedin.com/in/atticus-bartoli-9879a8240
 
 I am always looking to apply data-driven thinking to real-world problems and continue developing my technical and analytical skill set.
