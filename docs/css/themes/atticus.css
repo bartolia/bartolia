@@ -1,0 +1,117 @@
+/* ============================================================
+   themes/atticus.css — Custom professional dark green theme
+   ============================================================ */
+
+body {
+  background: linear-gradient(180deg, #071f1b 0%, #0b2b25 45%, #08221d 100%);
+  color: #edf5f2;
+}
+
+a {
+  color: #9bdc3b;
+}
+
+a:hover {
+  color: #c5f26a;
+  text-decoration: none;
+}
+
+/* Header */
+.site-header {
+  background: linear-gradient(135deg, #123f35 0%, #0b2b25 100%);
+  border-bottom: 3px solid #9bdc3b;
+}
+
+.header-name {
+  color: #ffffff;
+}
+
+.header-tagline {
+  color: #c2d7d1;
+}
+
+.site-nav a {
+  color: #c2d7d1;
+}
+
+.site-nav a:hover {
+  color: #9bdc3b;
+}
+
+/* Section headings */
+.section h2 {
+  color: #ffffff;
+  border-color: #9bdc3b;
+}
+
+/* Project card */
+.project-card {
+  background-color: rgba(24, 69, 59, 0.92);
+  border: 1px solid rgba(155, 220, 59, 0.28);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+}
+
+.project-card:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.34);
+  transform: translateY(-2px);
+}
+
+.project-image-wrapper {
+  background-color: #f7faf8;
+}
+
+.project-title {
+  color: #ffffff;
+}
+
+.project-summary {
+  color: #d5e4df;
+}
+
+/* Tech badges */
+.tech-badge {
+  background-color: #08221d;
+  color: #aee94a;
+  border: 1px solid rgba(155, 220, 59, 0.35);
+}
+
+/* Details */
+.project-details {
+  color: #c7d9d4;
+}
+
+.detail-block h4 {
+  color: #aee94a;
+}
+
+/* Buttons */
+.btn-repo {
+  background-color: #9bdc3b;
+  color: #08221d;
+}
+
+.btn-notebook {
+  background-color: transparent;
+  color: #edf5f2;
+  border: 1px solid rgba(237, 245, 242, 0.45);
+}
+
+.btn-notebook:hover {
+  border-color: #9bdc3b;
+}
+
+/* Contact */
+.contact-list a {
+  color: #9bdc3b;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #09251f;
+  border-top: 3px solid #9bdc3b;
+  color: #c2d7d1;
+}
+
+.site-footer a {
+  color: #9bdc3b;
+}

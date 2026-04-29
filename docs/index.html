@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atticus Bartoli | Data Science Portfolio</title>
+
+  <!-- Base styles always loaded -->
+  <link rel="stylesheet" href="css/base.css" />
+
+  <!-- Theme stylesheet — controlled by `theme` in portfolio_config.yaml -->
+  <link rel="stylesheet" href="css/themes/atticus.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-name">Atticus Bartoli</div>
+      <div class="header-tagline">Aspiring Data Scientist | Entrepreneur | Poker Player</div>
+    </div>
+
+    <!-- Navigation bar -->
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== Main content (filled in by child templates) ===== -->
+  <main class="site-main">
+    
+
+<!-- ===== About section ===== -->
+<section id="about" class="section about-section">
+  <h2>About Me</h2>
+  <div class="about-text"><p>My name is Atticus Bartoli, and I am graduating from Michigan State University in 
+Spring/Summer 2026 with a Bachelor’s degree in Data Science from the College of Natural Science.
+I am particularly interested in statistics, variance, and risk analysis, and I enjoy applying these concepts to solve real-world problems.</p>
+<p>My work focuses on transforming complex data into clear, actionable insights using tools such as 
+Python, SQL, and data visualization. I am passionate about helping individuals and organizations 
+make more informed, data-driven decisions—whether that means improving understanding of a problem 
+or supporting strategic business improvements.</p>
+<p>In addition to my academic work, I am involved in entrepreneurial ventures, including car rentals, 
+and have experience in analytical, strategy-driven environments such as competitive poker. I also have
+a strong interest in fashion and apparel, reflecting my appreciation for both creativity and attention to detail.</p></div>
+</section>
+
+<!-- ===== Projects section ===== -->
+<section id="projects" class="section projects-section">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/basketball_payroll_plots.png"
+          alt="Thumbnail for How Much Does It Cost to Win in the NBA?"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">How Much Does It Cost to Win in the NBA?</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">Analyzed historical NBA payroll and championship data to study how much teams spend to win championships and how that relationship has changed over time. Built a reproducible Python analysis pipeline using inflation-adjusted payroll data, summary statistics, and visualizations to compare championship team spending against league-wide trends.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">pandas</span>
+          
+          <span class="tech-badge">numpy</span>
+          
+          <span class="tech-badge">matplotlib</span>
+          
+          <span class="tech-badge">scipy</span>
+          
+          <span class="tech-badge">Jupyter Notebooks</span>
+          
+          <span class="tech-badge">uv</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>In professional sports, team payroll is often assumed to be strongly tied to success, but the exact relationship is not always clear. This project investigates how much it costs to win an NBA championship and whether championship teams consistently outspend the rest of the league. The goal was to better understand long-term spending trends in the NBA and provide a data-driven view of the financial cost of building a championship team.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>Combined historical NBA payroll data, player salary data, and championship results from external sources including Kaggle and Wikipedia. The analysis focused on cleaning and organizing payroll data across seasons, comparing championship team payrolls to league averages, and examining changes over time through exploratory visualizations and summary statistics. The project was structured as a reproducible notebook-based workflow, with dependency management handled through uv and a documented local setup.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>The project produced a set of visualizations and statistical comparisons showing how championship payrolls relate to overall league spending trends. The analysis highlighted that while championship teams often spend above average, spending alone does not fully explain success, especially across different NBA eras. This project demonstrates practical skills in data cleaning, reproducible analysis, sports analytics, and communicating results through well-documented notebook outputs.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/bartolia/nba-championship-cost-analysis.git" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/bartolia/nba-championship-cost-analysis/tree/main/notebooks/CMSE201_FinalProjectAtticusBartoli.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/customerslens_nlpdashboard.png"
+          alt="Thumbnail for CustomersLens: Entrepreneur Insights Pipeline"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">CustomersLens: Entrepreneur Insights Pipeline</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">Built a natural language processing pipeline to analyze large volumes of online entrepreneurial discussions and extract recurring themes, challenges, and insights for early-stage founders.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">NLP</span>
+          
+          <span class="tech-badge">pandas</span>
+          
+          <span class="tech-badge">scikit-learn</span>
+          
+          <span class="tech-badge">Topic Modeling</span>
+          
+          <span class="tech-badge">Data Visualization</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>Entrepreneurs frequently share valuable insights and challenges across platforms like Reddit, but this information is unstructured and difficult to analyze at scale. The goal was to identify recurring patterns across thousands of discussions.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>Developed a pipeline to collect public forum data, preprocess text, and apply NLP techniques such as topic modeling and clustering. The system transforms unstructured conversations into structured insights for analysis.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>Produced interpretable themes and structured insights that help identify common entrepreneurial pain points. This work supports CustomerLens AI in building data-driven tools for founders while maintaining interpretability for non-technical stakeholders. Repository and notebook access are restricted due to NDA/IP agreements with the community partner.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/nyc311_confusion_matrix.png"
+          alt="Thumbnail for NYC 311 Service Request Analysis"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">NYC 311 Service Request Analysis</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">Built a cloud-based data analysis workflow using AWS tools to explore NYC 311 service request data and predict whether complaints would be resolved within a short time frame.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">SQL</span>
+          
+          <span class="tech-badge">AWS S3</span>
+          
+          <span class="tech-badge">Athena</span>
+          
+          <span class="tech-badge">SageMaker</span>
+          
+          <span class="tech-badge">pandas</span>
+          
+          <span class="tech-badge">scikit-learn</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>NYC receives a large volume of 311 service requests across multiple agencies. The goal of this project was to determine whether complaint data could be used to predict if a request would be resolved within 3 days.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>Organized and stored data in AWS S3, used Athena to query and prepare the dataset, and trained a logistic regression model in a notebook environment. The workflow emphasized reproducibility, clean data handling, and clear documentation.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>The model achieved approximately 85% accuracy and performed well at identifying quickly resolved complaints. This project provided hands-on experience with cloud-based workflows and highlighted challenges such as class imbalance and working with real-world datasets.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/bartolia/aws-nyc311-bartolia.git" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/bartolia/aws-nyc311-bartolia/blob/main/notebooks/stakeholder_question01_linear_learner-bartolia.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
+  </div>
+</section>
+
+<!-- ===== Contact section ===== -->
+<section id="contact" class="section contact-section">
+  <h2>Contact</h2>
+  <ul class="contact-list">
+    
+    <li>
+      <span class="contact-label">Email:</span>
+      <a href="mailto:bartolia@msu.edu">bartolia@msu.edu</a>
+    </li>
+    
+    
+    <li>
+      <span class="contact-label">LinkedIn:</span>
+      <a href="https://www.linkedin.com/in/atticus-bartoli-9879a8240" target="_blank" rel="noopener">https://www.linkedin.com/in/atticus-bartoli-9879a8240</a>
+    </li>
+    
+    
+    <li>
+      <span class="contact-label">GitHub:</span>
+      <a href="https://github.com/bartolia" target="_blank" rel="noopener">https://github.com/bartolia</a>
+    </li>
+    
+  </ul>
+</section>
+
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <p>Built with the Data Science Portfolio Template &mdash; powered by Python &amp; Jinja2.</p>
+  </footer>
+
+</body>
+</html>
