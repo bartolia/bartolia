@@ -9,7 +9,7 @@ My recent work focuses on using Python, SQL, AWS, and data visualization to turn
 ### NYC 311 Service Request Analysis
 Built an AWS-based workflow using S3, Athena, SageMaker, SQL, Python, and scikit-learn to analyze NYC 311 service request data and predict whether complaints would be resolved within 3 days.
 
-### CustomerLens: Entrepreneur Insights Pipeline
+### CustomersLens: Entrepreneur Insights Pipeline
 Worked on an NLP pipeline that analyzes online entrepreneurial discussions and extracts recurring founder challenges and pain points. Repository and notebook access are restricted due to NDA/IP agreements.
 
 ### NBA Championship Cost Analysis
