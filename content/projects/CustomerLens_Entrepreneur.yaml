@@ -5,7 +5,7 @@
 # Copy this file to create your own project entries.
 # ============================================================
 
-title: "CustomerLens: Entrepreneur Insights Pipeline"
+title: "CustomersLens: Entrepreneur Insights Pipeline"
 
 short_summary: >
   Built a natural language processing pipeline to analyze large volumes of
@@ -35,8 +35,9 @@ results_impact: >
   Produced interpretable themes and structured insights that help identify
   common entrepreneurial pain points. This work supports CustomerLens AI in
   building data-driven tools for founders while maintaining interpretability
-  for non-technical stakeholders.
+  for non-technical stakeholders. Repository and notebook access are restricted
+  due to NDA/IP agreements with the community partner.
 
-repo_url: "Private (NDA Protected)"
-notebook_url: "Private (NDA Protected)"
-image_path: "img/placeholder_project_2.png"
+
+image_path: "img/customerslens_nlpdashboard.png"
+

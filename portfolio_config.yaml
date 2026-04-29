@@ -16,12 +16,13 @@ student_file: content/AtticusBartoli.yaml
 projects:
   - content/projects/nba_championship_cost_analysis.yaml
   - content/projects/CustomerLens_Entrepreneur.yaml
+  - content/projects/nyc_311_analysis.yaml
 
 # --- Theme ---
 # Built-in options: "light", "dark", "msu-light", "msu-dark"
 # You can also add your own CSS file under static/css/themes/ and
 # use its name here (without the .css extension).
-theme: msu-dark
+theme: atticus
 
 # --- Site metadata ---
 # Used in the HTML <title> tag and browser tab.

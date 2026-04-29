@@ -1,0 +1,35 @@
+title: "NYC 311 Service Request Analysis"
+
+short_summary: >
+  Built a cloud-based data analysis workflow using AWS tools to explore NYC
+  311 service request data and predict whether complaints would be resolved
+  within a short time frame.
+
+tech_stack:
+  - Python
+  - SQL
+  - AWS S3
+  - Athena
+  - SageMaker
+  - pandas
+  - scikit-learn
+
+problem_statement: >
+  NYC receives a large volume of 311 service requests across multiple agencies.
+  The goal of this project was to determine whether complaint data could be used
+  to predict if a request would be resolved within 3 days.
+
+approach: >
+  Organized and stored data in AWS S3, used Athena to query and prepare the dataset,
+  and trained a logistic regression model in a notebook environment. The workflow
+  emphasized reproducibility, clean data handling, and clear documentation.
+
+results_impact: >
+  The model achieved approximately 85% accuracy and performed well at identifying
+  quickly resolved complaints. This project provided hands-on experience with
+  cloud-based workflows and highlighted challenges such as class imbalance and
+  working with real-world datasets.
+
+repo_url: "https://github.com/bartolia/aws-nyc311-bartolia.git"
+notebook_url: "https://github.com/bartolia/aws-nyc311-bartolia/blob/main/notebooks/stakeholder_question01_linear_learner-bartolia.ipynb"
+image_path: "img/nyc311_confusion_matrix.png"
