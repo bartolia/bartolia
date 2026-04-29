@@ -9,7 +9,7 @@ My recent work focuses on using Python, SQL, AWS, and data visualization to turn
 ### NYC 311 Service Request Analysis
 Built an AWS-based workflow using S3, Athena, SageMaker, SQL, Python, and scikit-learn to analyze NYC 311 service request data and predict whether complaints would be resolved within 3 days.
 
-### CustomerLens: Entrepreneur Insights Pipeline
+### CustomersLens: Entrepreneur Insights Pipeline
 Worked on an NLP pipeline that analyzes online entrepreneurial discussions and extracts recurring founder challenges and pain points. Repository and notebook access are restricted due to NDA/IP agreements.
 
 ### NBA Championship Cost Analysis
@@ -21,7 +21,7 @@ Python · SQL · AWS S3 · Athena · SageMaker · pandas · scikit-learn · Post
 
 ## Links
 
-- Portfolio: YOUR LIVE GITHUB PAGES LINK
+- Portfolio: https://bartolia.github.io/bartolia/
 - LinkedIn: https://www.linkedin.com/in/atticus-bartoli-9879a8240
 
 I am always looking to apply data-driven thinking to real-world problems and continue developing my technical and analytical skill set.
