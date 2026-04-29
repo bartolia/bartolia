@@ -15,7 +15,7 @@ student_file: content/AtticusBartoli.yaml
 # Remove example projects and add your own once you're ready.
 projects:
   - content/projects/nba_championship_cost_analysis.yaml
-  - content/projects/CustomerLens_Entrepreneur.yaml
+  - content/projects/CustomersLens_Entrepreneur.yaml
   - content/projects/nyc_311_analysis.yaml
 
 # --- Theme ---
